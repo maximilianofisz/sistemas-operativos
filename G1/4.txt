@@ -1,0 +1,5 @@
+Los procesos new aparecen porque un proceso running forkea. No se crean directamente como ready porque todavia falta que se les asigne un PCB, etc etc
+Los procesos running pueden quedar blocked si estan esperando por ejemplo una respuesta de I/O,
+o ready si durante su ejecucion se les acaba el quantum o
+ terminated si llegan al final de su ejecucion y hacen exit.
+Los procesos ready pasan a running cuando el scheduler les asigna nuevamente un quantum.

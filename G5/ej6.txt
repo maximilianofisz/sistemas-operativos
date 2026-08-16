@@ -1,0 +1,4 @@
+Entiendo que las syscalls IN y OUT hablan "directamente" con los dispositivos,
+son la ultima capa externa antes de "salir de la computadora" entonces si fueran funciones que puede llamar cualquier programa se podria hablar cuasi sin escalas y seria
+bastante terrible en terminos de seguridad y estabilidad. Entiendo que estas syscalls solo se pueden utilizar siendo un driver lo que hace toda la situacion más segura.
+TLDR: si las syscalls no tuvieran que escalarse a nivel de kernel un programa cualquiera podria enviarle cosas a los dispositivos sin pasar por el SO ni por el driver: muy malo.

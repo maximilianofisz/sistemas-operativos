@@ -1,0 +1,7 @@
+- a. Si. Es una pieza de software porque es literalmente uno, es un objeto ejecutable que se origina de la compilacion de un codigo fuente.
+- b. No. Es literalmente no eso y ademas, el software que sí es no interactua directamente con el hardware, el controller es el que lo hace.
+- c. Si. Posiblemente porque corre con permisos elevados y no es "usado directamente" por el usuario sino que se usa a travez de librerias o un D.I.I/O (?).
+- d. No. El usuario no puede cambiarlo realmente en "tiempo real", el driver se inicializa junto al SO y entiendo que no es modificable en runtime
+- e. No. El gestor de interrupciones seria SO.
+- f. Ni. Tiene una buena idea del dispositivo que "controla" pero tambien una mejor del SO porque al no poder linkear bibliotecas depende del SO.
+- g. Si. Ver arriba.

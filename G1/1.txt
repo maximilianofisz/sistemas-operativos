@@ -1,0 +1,2 @@
+- Guardar los registros y el IP en PCB
+- Cargar el PCB del siguiente proceso si lo tuviera

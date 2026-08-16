@@ -1,0 +1,5 @@
+a) El llamado a open() se realiza desde un programa de usuario. El device id es conocido para el programa de usuario y el SO mappea device_ids a drivers.
+Ese open() es handleado por el SO que simplemente busca el software del driver asociado a ese dispositivo 
+y dispatchea ahí el driver_open().
+
+b) Un poco lo mismo de arriba, con la adicion que el programa de usuario pasa *data que el driver usara para enviar al dispositivo.
