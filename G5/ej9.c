@@ -100,6 +100,7 @@ int driver_close(int id) {
     OUT(KEYB_REG_AUX, id + 1);
     
     sema_signal(&init);
+    return IO_OK;
 }
 
 int driver_read(int id, char* buffer, int length) {
