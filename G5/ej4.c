@@ -5,7 +5,7 @@ void handler() {
 }
 
 int driver_init() {
-    sema_init(&pressed, 0); // Arranca el mutex bloqueado
+    sema_init(&pressed, 0); // Arranca el mutex desbloqueado
     if(request_irq(7, handler) == IRQ_ERROR) { // registramos la funcion handler a la interrupcion 7
         return IO_ERROR;
     }
